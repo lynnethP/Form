@@ -1,0 +1,208 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: url(imagen/fondo.png) center / cover;
+	background-attachment: fixed;
+
+}
+
+.contenedor{
+	width: 100%;
+	/*max-width: 1000px;*/
+}
+
+
+#subheader{
+	width: 90%;
+	margin: auto;
+	margin-top: 5%;
+
+}
+
+.G{
+	text-shadow: -4px 0px 5px #C9E928;
+	float: left;
+}
+
+#logotipo{
+	float: left;
+	width: 30%;
+	margin: auto;
+	margin-left: 4%;
+
+}
+
+
+#logotipo a{
+	font-family: Liberation Sans;
+	font-size: 30px;
+	color: #ACCFF0;
+	text-decoration: none;
+}
+
+
+header #subheader nav{
+	float: left;
+	width: 60%;
+	text-align: right;
+	padding: auto;
+	margin-bottom: 3%;
+}
+
+header #subheader nav ul li{
+
+	list-style: none;
+	display: inline;
+
+}
+
+header #subheader nav ul li a{
+	text-decoration: none;
+	color: #000;
+	font-family: Agency FB;
+	padding: 10px;
+	color: #31E5E7;
+
+}
+
+header #subheader nav ul li a:hover{
+	color: #fff;
+	background: #000; 
+	padding: 5% 2%;
+	border-bottom: 10px solid #000;
+}
+
+.hr{
+	margin-top: 3%;
+	margin-bottom: 5%;
+	clear: both;
+	height: 15px;
+	background-color: #000; 
+	border-color: #000;
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+#main{
+	padding: 20px;
+	float: left;
+	margin-top: 5%;
+	margin-bottom: 30px;
+	width: 50%;
+	box-sizing: border-box;
+	margin-left: 10%;
+}
+
+.contact{
+	font-family: Agency FB;
+	font-size: 20px;
+	margin-bottom: 3px;
+	margin-top: 0px;
+}
+
+.hr2{
+	height: 1px;
+	background-color: #31E5E7;
+	border-color: #31E5E7;
+	width: 25px;
+	margin-bottom: 50px;
+}
+
+
+#nombre, #correo{
+	margin-bottom: 10px;
+	width: 48%;
+	padding: 1%;
+	box-sizing: border-box;
+	text-decoration-style: initial;
+	display: inline;
+}
+
+#nombre{
+	margin-right: 1.5%;
+}
+
+#correo{
+	margin-left: 1.5%;
+	margin-right: 0%;
+}
+
+#tema, textarea{
+	margin-bottom: 10px;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+textarea{
+	resize: vertical;
+	max-height: 200px;
+	min-height: 100px;
+	min-width: 100px;
+}
+
+::placeholder{
+	font-family: Liberation Sans;
+	font-style: italic;
+}
+
+
+
+
+
+input[type="submit"]{
+	padding: 10px;
+	background-color: #34C2CF;
+	border: none;
+	color: #fff;
+	font-family: Agency FB;
+	font-size: 20px;
+}
+
+input[type="submit"]:hover{
+	color: black;
+	box-shadow: 0px 0px 5px 5px #073535;
+	
+}
+
+aside {
+	width: 25%;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+	margin-left: 2%;
+	margin-top: 5%;
+	font-family: Liberation Sans Narrow;
+}
+
+aside ul{
+	list-style-type: square;
+}
+aside ul li{
+	margin-bottom: 20px;
+	color: #31E5E7;
+}
+aside ul li p{
+	margin-top: 5px;
+}
+
+.aside{
+	color: #000;
+}
+
+footer{
+	background: #7FB5E9;
+	color: #000;
+	clear: both;
+	padding: 15px 0px;
+	text-align: center;
+	box-shadow: 0px 0px 5px 5px #123B3C;
+	font: bold 20px Agency FB, sans-serif;
+	text-shadow: rgb(0,0,150) 3px 3px 5px;
+	/*position: fixed;
+	bottom: 0%;
+	width: 100%;*/
+}
